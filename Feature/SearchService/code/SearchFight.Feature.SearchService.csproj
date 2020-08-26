@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Foundation\ClientService\code\SearchFight.Foundation.ClientService.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Configuration\code\SearchFight.Foundation.Configuration.csproj" />
+    <ProjectReference Include="..\..\..\Foundation\Utilities\code\SearchFight.Foundation.Utilities.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.7" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Configs\" />
+    <Folder Include="Presenters\" />
+  </ItemGroup>
+</Project>
