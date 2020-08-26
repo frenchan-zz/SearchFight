@@ -1,0 +1,10 @@
+﻿{
+  "SearchFight": {
+    "GoogleApiUrl": "https://www.googleapis.com/customsearch/v1",
+    "GoogleApiKey": "",
+    "GoogleContextId": "",
+    "BingApiUrl": "https://api.cognitive.microsoft.com/bing/v7.0/search",
+    "BingAccessKey": "",
+    "BingHeaderType": "Ocp-Apim-Subscription-Key"
+  }
+}
